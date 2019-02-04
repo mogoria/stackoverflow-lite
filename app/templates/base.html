@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}"/>
+            <title>
+                {% if title %}
+                    {{ title }} - StackOverflow-lite
+                {% else %}
+                    StackOverflow-lite
+                {% endif %}
+            </title>
+        </head>
+        <body>
+            <nav id = "nav-bar">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Login</li>
+                    <li>Sign Up</li>
+                </ul>
+            </nav>
+            {%block content%}{%endblock%}
+        </body>
+    </html>

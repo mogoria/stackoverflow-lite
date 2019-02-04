@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+}
+body{
+    color:rgb(41, 73, 56);
+}
+
+#nav-bar {
+    padding:10px;
+    font-family:cursive;
+}
+
+#nav-bar ul {padding-left: 0px;}
+
+#nav-bar li {
+    display: inline ;
+}
